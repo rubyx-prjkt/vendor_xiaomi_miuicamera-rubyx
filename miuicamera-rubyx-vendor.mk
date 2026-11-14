@@ -6,7 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/miuicamera-rubyx
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/miuicamera-rubyx/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt
+    vendor/xiaomi/miuicamera-rubyx/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt \
+    vendor/xiaomi/miuicamera-rubyx/proprietary/system_ext/fonts/MiSansLatinVF.ttf:$(TARGET_COPY_OUT_SYSTEM_EXT)/fonts/MiSansLatinVF.ttf
 
 PRODUCT_PACKAGES += \
     libcamera_algoup_jni.xiaomi \
